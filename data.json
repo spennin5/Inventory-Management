@@ -1,0 +1,15 @@
+{
+    "Gloves":
+    {
+      "Glove 1": "Checked In",
+      "Glove 2": "Checked In",
+      "Glove 3": "Checked Out"
+    },
+    "Wire":
+    {
+      "Wire 1": "Checked In",
+      "Wire 2": "Checked Out",
+      "Wire 3": "Checked Out"
+    }
+  
+}

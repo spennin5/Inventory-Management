@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <!-- basic.html -->
+  <title>Landing Page</title>
+  <meta charset = "UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload='createDropDowns()'>
+  <h3>Add New Item</h3>
+
+  <!--THE CONTAINER WHERE WE'll ADD THE DYNAMIC TABLE-->
+  <div id="cont"></div>
+
+  <p><input type="button" id="bt" value="Submit Data" onclick="submit()" /></p>
+  <p>(See the result in the console window.)</p>
+  <button class="collapsible">Gloves  Count: 7</button>
+  <div class="content">
+    <div id="resultsDiv"></div>
+  </div>
+</body>
+
+<script src="js/manageInvTable.js"></script>
+
+</html>
